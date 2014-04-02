@@ -1,6 +1,7 @@
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
+
 syntax on
 set background=dark
 colorscheme Monokai-Refined
@@ -8,6 +9,8 @@ colorscheme Monokai-Refined
 execute pathogen#infect()
 filetype plugin indent on
 set nocompatible
+
+set noesckeys "disable the arrowkeys to speed up 'O' command
 
 set modelines=0
 set nomodeline
