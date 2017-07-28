@@ -6,7 +6,6 @@ syntax on
 set background=dark
 colorscheme Monokai-Refined
 
-execute pathogen#infect()
 filetype plugin indent on
 set nocompatible
 
